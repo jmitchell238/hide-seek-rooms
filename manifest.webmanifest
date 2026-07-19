@@ -1,0 +1,26 @@
+{
+  "name": "Hide & Seek Rooms",
+  "short_name": "Hide & Seek",
+  "description": "Find hidden toys in cozy rooms. Soft hide-and-seek for ages 4–6 — sparkle hints, no fail screens.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a1230",
+  "theme_color": "#1a1230",
+  "categories": ["games", "kids", "entertainment"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
