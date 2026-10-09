@@ -31,7 +31,7 @@ Play at https://jmitchell238.github.io/hide-seek-rooms/. It's one of the games i
 
 ## License
 
-Personal project for the family.
+© 2026 James Mitchell / 238 Apps. All rights reserved. You're welcome to play it at https://jmitchell238.github.io/hide-seek-rooms/, but the code, art and other content may not be copied, reused, republished or sold without permission. Third-party material keeps its own license. See [LICENSE](LICENSE), the [Terms of Use](https://jmitchell238.github.io/arcade-hub/terms.html) and the [Privacy Policy](https://jmitchell238.github.io/arcade-hub/privacy.html).
 
 ## Development
 
