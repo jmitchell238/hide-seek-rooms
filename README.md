@@ -1,54 +1,54 @@
 # Hide & Seek Rooms
 
-Find hidden toys in cozy rooms — sparkle hints, celebrations, **zero fail.** Built for ages **4–6**.
+Find toys hidden around cozy rooms, with sparkle hints and a celebration for each find. There's no way to fail. Made for ages 4–6.
 
-**Play:** https://jmitchell238.github.io/hide-seek-rooms/
-
-Part of [Arcade Hub](https://jmitchell238.github.io/arcade-hub/).
-
----
+Play at https://jmitchell238.github.io/hide-seek-rooms/. It's one of the games in [Arcade Hub](https://jmitchell238.github.io/arcade-hub/).
 
 ## Modes
 
-| Mode | Toys | Rooms |
-|------|------|-------|
-| **Free Play** | 3 | Endless |
-| **Cozy Seek** | 3 | 4 |
-| **Seeker** | 4 | 6 |
-| **Super Seek** | 5 | 8 |
+| Mode | Toys per room | Rooms |
+|------|---------------|-------|
+| Free Play | 3 | Endless |
+| Cozy Seek | 3 | 4 |
+| Seeker | 4 | 6 |
+| Super Seek | 5 | 8 |
 
 ## Features
 
-- Six rooms: Bedroom, Kitchen, Living Room, Playground, Bathroom, Garden
-- Canvas-drawn furniture + 12 cute toys (star, ball, teddy, duck, …)
-- Soft sparkle trail after ~7s idle (Maze Adventure helper pattern)
-- “Warm!” nudge when you tap near a toy
-- Sound mute + reduced motion
-- Progress in `localStorage`
-- Installable PWA (offline after first visit)
+- Six rooms: Bedroom, Kitchen, Living Room, Playground, Bathroom and Garden
+- Drawn furniture and 12 toys to find (star, ball, teddy, duck and more)
+- A sparkle trail toward a toy after about 7 seconds without a find
+- A "Warm!" message when you tap close to a toy
+- Mute and Calm motion settings
+- Progress saved in localStorage
+- Installable PWA that works offline after the first visit
 
-## Stack
+## For parents
 
-Static HTML / CSS / Canvas. No build step.
+- No lives, ads, accounts or fail screens. A wrong tap never says "you lose".
+- Calm motion tones the animation down.
+- Turn the sound off for quiet car rides.
 
-## Versioning
-
-- `GAME_VERSION` in `js/config.js`
-- Keep `CACHE` in `sw.js` in sync: `'hide-seek-rooms-' + GAME_VERSION`
-
-## Local preview
+## Running locally
 
 ```bash
 python3 -m http.server 8080
 ```
 
-## Parents
+Then open http://localhost:8080. The service worker needs `localhost` or HTTPS.
 
-- No lives, ads, accounts, or fail screens
-- Wrong taps are soft — never “you lose”
-- **Calm motion** for sensitive kids
-- **Sound off** for quiet car rides
+Plain HTML, CSS and canvas with no build step.
+
+## Tests
+
+```bash
+node tests/run.mjs
+```
+
+## Versioning
+
+When you bump `GAME_VERSION` in `js/config.js`, set `CACHE` in `sw.js` to `'hide-seek-rooms-' + GAME_VERSION`.
 
 ## License
 
-Personal project for family Arcade Hub.
+Personal project for the family.
