@@ -1,5 +1,5 @@
 // Hide & Seek Rooms — bump with GAME_VERSION in js/config.js
-const CACHE = 'hide-seek-rooms-1.0.001';
+const CACHE = 'hide-seek-rooms-1.0.002';
 
 const ASSETS = [
   './',
